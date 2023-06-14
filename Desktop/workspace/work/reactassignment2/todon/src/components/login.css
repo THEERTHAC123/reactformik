@@ -1,0 +1,25 @@
+body{
+    background: #bdc3c7; 
+    background: -webkit-linear-gradient(to right, #c7973f, #6ea9d1);  
+    background: linear-gradient(to right, #89e6b1, #729ab4);
+  }
+.form{
+    background-color:rgb(196, 234, 236);
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+  }
+  
+.form-body{
+    text-align:left;
+    padding: 20px 10px;
+    padding-left: 32%;
+  }
+  
+.form-body > *{
+    padding: 5px;
+  }
+
+  

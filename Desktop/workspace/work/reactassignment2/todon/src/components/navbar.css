@@ -1,0 +1,26 @@
+.container-navbar {
+  /* Your existing styles */
+
+  /* Additional styles for responsiveness */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block !important;
+    }
+
+    .menu-open {
+      display: block !important;
+    }
+
+    .menu-toggle.icon {
+      float: right;
+    }
+
+    .menu-open > .nav {
+      display: block !important;
+    }
+
+    .nav {
+      display: none;
+    }
+  }
+}

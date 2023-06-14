@@ -1,0 +1,49 @@
+body{
+  background: #bdc3c7; 
+  background: -webkit-linear-gradient(to right, #c7973f, #6ea9d1);  
+  background: linear-gradient(to right, #89e6b1, #729ab4);
+
+  }
+.form{
+    background-color: rgb(196, 234, 236);
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+  }
+  
+.form-body{
+    padding: 30px 100px ;
+ 
+  }
+  
+
+.container-navbar{
+    background-color: #3dc7bb;
+    padding: 15px;
+    padding-right:1000px;
+}
+.nav{
+    padding-left: 60px;
+  }
+.navs{
+    padding-left: 1000px;
+  }
+.table, td, th {
+    border: 1px solid;
+    padding: 20px;
+  }
+  
+.table {
+    border-collapse: collapse;
+    margin-right: 80px;
+  
+  }
+/* Apply responsive styles using media queries */
+@media (max-width: 500px) {
+.form {
+margin: 10px;
+padding: 10px;
+}
+}
